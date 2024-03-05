@@ -47,6 +47,7 @@ $border-width: 2px;
     
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    margin-bottom: 30px;
   }
   #cuenta-atras .countdown-item {
     margin: 0 10px;
@@ -123,11 +124,29 @@ $border-width: 2px;
 
 #about{
     background-image: url('../img/background-verde.jpg');
-    
+    background-size: cover;
     height: 500px;
+
+    
     width: 100%;
 }
 
+.cita-biblica{
+   
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+    h1{
+        color:white;
+    }
+
+    i{
+        color:white;
+       
+    }
+}   
 
 .icon-wedding{
     height: 60px;
@@ -139,9 +158,26 @@ $border-width: 2px;
 
 .people-card{
     background-color: #E1F0DA;
+    background-color: #EBF3E7;
+    background-color: #E3F0E0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
+.font-people{
+    font-size: 30px;
+}
+
+
+
+#portfolio-flters{
+    li{
+        color:white;
+       background-color: black;
+    }
+
+
+}
 
 
 
