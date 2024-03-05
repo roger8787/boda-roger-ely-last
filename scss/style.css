@@ -9008,7 +9008,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-sobres {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   margin-top: 15px;
   background-color: #D9E8D8;
   border-radius: 10px;
@@ -9329,8 +9329,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bg-gallery {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria/galeria-1.jpeg), no-repeat center center;
-  background-size: contain;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg), no-repeat center center;
+  background-size: cover;
+  background-position: center bottom;
 }
 
 .gallery-carousel .owl-nav {

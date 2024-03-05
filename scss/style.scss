@@ -59,7 +59,7 @@ $border-width: 2px;
 
 
 .card-sobres{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-top:15px;
     background-color: $primary;
     border-radius: 10px;
@@ -422,8 +422,9 @@ $border-width: 2px;
 }
 
 .bg-gallery {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria/galeria-1.jpeg), no-repeat center center;
-    background-size: contain;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg), no-repeat center center;
+    background-size: cover;
+    background-position: center bottom;
 }
 
 .gallery-carousel .owl-nav {
