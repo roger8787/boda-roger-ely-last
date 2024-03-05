@@ -8995,15 +8995,25 @@ a.text-dark:hover, a.text-dark:focus {
 #cuenta-atras #countdown {
   width: 95%;
   text-align: center;
-  padding: 40px;
+  padding: 30px;
   background-color: #D9E8D8; /* Set a white background color for the container */
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
   margin-bottom: 30px;
+  padding-top: 10px;
 }
 
 #cuenta-atras .countdown-item {
   margin: 0 10px;
+}
+
+.card-sobres {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-color: #D9E8D8;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
 }
 
 .btn-square {
@@ -9319,8 +9329,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bg-gallery {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg), no-repeat center center;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria/galeria-1.jpeg), no-repeat center center;
+  background-size: contain;
 }
 
 .gallery-carousel .owl-nav {
