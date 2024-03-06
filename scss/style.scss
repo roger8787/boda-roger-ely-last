@@ -8,7 +8,7 @@ $primary:#D9E8D8;
 // $secondary:#CCD3CA;
 $secondary: #D9E8D8;
 $light: #FFFFFF;
-$dark: #121F38;
+$dark: #000000;
 
 $font-family-sans-serif: 'Montserrat', sans-serif;
 
@@ -191,6 +191,24 @@ $border-width: 2px;
     }
 
 
+}
+
+
+
+#location{
+    background-color: $primary;
+    height: 600px;
+
+    img{
+        height: 200px;
+    }
+
+    .btn{
+        margin-top: 10px;
+        background-color: $dark;
+        min-width: 200px;
+        color:white;
+    }
 }
 
 
@@ -422,8 +440,8 @@ $border-width: 2px;
 }
 
 .bg-gallery {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg), no-repeat center center;
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria/galeria-1.jpeg), no-repeat center center;
+    background-size: contain;
     background-position: center bottom;
 }
 
